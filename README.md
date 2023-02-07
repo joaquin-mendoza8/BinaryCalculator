@@ -1,7 +1,5 @@
 # BinaryCalculator
-
 ## Assignment Essay
----
 In Program 1, I have implemented a simple binary calculation program that takes in both a decimal number of choice and a specified bit system as a decimal number as well. In the method titled DecToBin, I compute the binary equivalent of a decimal number, write it to an array, and print the array with the help of the printArr helper function. The functions titled OnesComp and TwosComp flip the bits and add one bit to the binary number respectively. These bitwise operations are the fundamental operations for converting decimal numbers into their binary, one’s, and two’s complement equivalents without the use of external libraries like <bitset> for example.
 
 Besides loop variables, the only named variables are pointers. By using pointer variables to dynamically allocate memory, the program can store results without knowing the size in advance. This ability allows for more flexibility and efficiency of the code. Also, this approach prevents from having to preallocate memory which is another benefit to using pointer variables in the program. It was difficult at first to understand how and why pointer variables were required for this program, but I now understand the simplicity in terms of memory allocation and the efficiency they provide to the functionality of the program itself. After working out this challenge, realizing the benefit of proper memory management in compiled languages like C and C++ gives me greater confidence with how languages use the memory of a machine to execute programs.
